@@ -1,0 +1,55 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	background: url("https://i.imgur.com/M7aD8Uh.jpg");
+	width: 700px;
+	height: 700px;
+	padding: 20px;
+}
+
+.first {
+	text-align: center;
+}
+
+.actions {
+	display: flex;
+	flex-direction: column;
+}
+
+.results {
+	text-align: center;
+}
+
+input {
+	padding: 10px;
+	margin: 20px;
+	font-size: 28px;
+	text-align: center;
+	border-radius: 15px;
+	outline: 0;
+}
+
+::placeholder {
+	color: #ccc;
+}
+
+h2 {
+	color: white;
+}
+
+button {
+	padding: 20px;
+	font-size: 16px;
+	font-family: sans-serif;
+}
